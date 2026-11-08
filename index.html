@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Box Model и отступы</h1>
+
+        <div class="card">
+            <h2>Моя карточка</h2>
+            <p>Это простой пример блочной модели CSS.</p>
+            <button>Подробнее</button>
+        </div>
+
+        <h2>Margin Collapse</h2>
+        <div class="block block-one">Первый блок</div>
+        <div class="block block-two">Второй блок</div>
+
+        <p class="note">
+            Отступы margin соседних блоков могут объединяться.
+            Чтобы избежать этого, можно использовать padding у родителя
+            или display: flow-root.
+        </p>
+    </div>
+</body>
+</html>
